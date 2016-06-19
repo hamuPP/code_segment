@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rightFixedTooltip.css"/>
+    <title></title>
+</head>
+<body>
+<!--页面其他内容 与关键代码无关 start-->
+<div style="width: 200px;height: 500px;background: purple"></div>
+<div style="width: 200px;height: 500px;background: green"></div>
+<div style="width: 200px;height: 500px;background: #eea7cf"></div>
+<div style="width: 200px;height: 500px;background: #a11731"></div>
+<!--页面其他内容 与关键代码无关 end-->
+<div class="fixed-tool" id="fixedTool">
+    <a href="javascript:;" class="qq-service"></a>
+    <a href="javascript:;" class="go-top-with-img" id="goTop"></a>
+</div>
+<script src="rightFixedTooltip.js"></script>
+<script>
+    window.onload = function () {
+        goTop("goTop", 12);
+    }
+</script>
+</body>
+</html>
